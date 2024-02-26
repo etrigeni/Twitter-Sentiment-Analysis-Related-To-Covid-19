@@ -1,6 +1,5 @@
 # Twitter-Sentiment-Analysis-Related-To-Covid19
 
-This project conducted in the context of the data mining course, of the postgraduate Data Science.
 The project was held in mid-2022 where Covid was still a trending topic on Twitter. People expressed their opinions both generally about vaccines and specifically about the 3 popular vaccines (Pfizer, Moderna, AstraZeneca). The goal of this study was to classify people who are in favor or against vaccination, as well as people’s preferences for these three types of vaccines.
 
 
