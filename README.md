@@ -18,21 +18,21 @@ After collecting these data and merged them into a panda’s data frame, we save
 
 **3. Data Preprocessing**
       
-      1)Removing duplicate tweets in case the same tweet was posted multiple times accidentally or we could define the tweet_id as primary key to prevent duplicates.
+1)Removing duplicate tweets in case the same tweet was posted multiple times accidentally or we could define the tweet_id as primary key to prevent duplicates.
         
-      2)Converting datetime to date for the columns “created_at” and “account_creation_date” of our data frame.
+2)Converting datetime to date for the columns “created_at” and “account_creation_date” of our data frame.
         
-      3)Expand Contractions. They are words or combinations of words that are shortened by dropping letters and replacing them by an apostrophe. It is a useful preprocessing step as the words play an important role in sentiment analysis
+3)Expand Contractions. They are words or combinations of words that are shortened by dropping letters and replacing them by an apostrophe. It is a useful preprocessing step as the words play an important role in sentiment analysis
         
-      4)Applying lowercase which means convert all letters to lower case.
+4)Applying lowercase which means convert all letters to lower case.
         
-      5)Removing URLS, user’s mentions, hashtags, punctuations, digits & emojis using regular expressions, since those terms don’t really provide meaningful context for discovering inherent topics from the tweet.
+5)Removing URLS, user’s mentions, hashtags, punctuations, digits & emojis using regular expressions, since those terms don’t really provide meaningful context for discovering inherent topics from the tweet.
         
-      6)Removing stop words, which are basically a set of commonly used words that don’t contribute much to the machine learning model. This allows us to focus on the important words instead.
+6)Removing stop words, which are basically a set of commonly used words that don’t contribute much to the machine learning model. This allows us to focus on the important words instead.
         
-      7)A necessary Natural Language Processing (NLP) technique that we used is Tokenization. It is the process of breaking down a tweet into words.
+7)A necessary Natural Language Processing (NLP) technique that we used is Tokenization. It is the process of breaking down a tweet into words.
         
-      8)Another significant Natural Language Processing (NLP) technique was Lemmatization. It is a method that converts words to their lemma or dictionary form by using vocabulary and morphological analysis of words. To achieve an effective lemma or root meaning of the word using WordNetLemmatizer, it is really important that the input word must be passed in lower case to the WordNetLemmatizer algorithm to achieve accuracy.
+8)Another significant Natural Language Processing (NLP) technique was Lemmatization. It is a method that converts words to their lemma or dictionary form by using vocabulary and morphological analysis of words. To achieve an effective lemma or root meaning of the word using WordNetLemmatizer, it is really important that the input word must be passed in lower case to the WordNetLemmatizer algorithm to achieve accuracy.
   
   
   **4. Sentiment Analysis:**
