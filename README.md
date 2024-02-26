@@ -40,12 +40,15 @@ After collecting these data and merged them into a panda’s data frame, we save
 Three Lexicon-Based methods (TextBlob, Vader and Afinn) were used to find the polarity of the text (positive text, negative text, neutral text). They have differences in the way they calculate the polarity scores of a text, which makes them have different results. An exhaustive comparison of these three methods was applied.
 
 
-**5. Vectorization of the tweets** : TF-IDF word embedding approach was used.
+**5. Vectorization of the tweets** : 
+
+TF-IDF word embedding approach was used.
 
 
 
-**6.Data Splitting**: The next step was to split the dataset into training and test sets. 80% for training set and 20% for testing was chosen after running multiple variations of these percentage thresholds and checking the output results.
+**6.Data Splitting**:
 
+The next step was to split the dataset into training and test sets. 80% for training set and 20% for testing was chosen after running multiple variations of these percentage thresholds and checking the output results.
 
 
 **7.Models Training – Classifier Selection – Models Evaluation:**
